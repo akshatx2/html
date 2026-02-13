@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <CENter>    <h1><i>Student Reqistration Form</i></h1>
+    <form action="submit.html" method="post">
+        
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" placeholder="Enter your full name">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email">
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password"placeholder="Enter your password">
+        <br>
+        <label>Gender</label>
+        <label for="male"><input type="radio" id="male" name="male " value="male">Male</label>
+         <label for="female"><input type="radio" id="female" name="male " value="female">Female</label>
+         <label for="others"><input type="radio" id="others" name="others" value="others">Others</label>
+         <BR>
+         <label for="course">Course</label>
+         <select name="course" id="course" required>
+            <option value="Select course"></option>
+            <option value="Btech">Btech</option>
+            <option value="Bca">Bca</option>
+            <option value="B.Sc">B.Sc</option>
+            </select>
+            <br>
+            <label for="address">Address</label>
+            <textarea name="address" id="address" placeholder="Enter your address" required></textarea>
+        <br>
+        <input type="submit" value="register">
+        <input type="reset" value="clear">
+         
+        
+        
+    </form>
+    <br>
+    <footer>
+        <p> 2025 Student Registeration Portal</p>
+    </footer>
+</CENter>
+
+</body>
+</html>

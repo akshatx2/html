@@ -1,0 +1,34 @@
+.in1{
+    font: 50px;
+    color: mediumslateblue;
+    margin: 0 auto;
+    text-align: center;
+}
+.in2{
+background-color: black;
+height: 700px;
+width: 400px;
+padding: 25px;
+margin: 0 auto;
+color: aqua;
+
+}
+.ine2{
+    font-size: 30px;
+    padding: 25px;
+    text-align: center;
+
+color: aqua;}
+.bu2:hover{ color: antiquewhite;}
+.bu2{
+    height: 25px;
+    width: 100%;
+}
+.ine3{
+    width: 350px;
+    
+}
+.P{
+    font-size: 20px;
+    color: aqua;
+}

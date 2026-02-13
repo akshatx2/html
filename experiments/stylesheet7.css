@@ -1,0 +1,45 @@
+.in1{
+    background-color: black;
+    color: blanchedalmond;
+    display: block;
+    height: 50px;
+    text-align: center;
+}
+.in2{
+
+background-color: grey;
+color: aquamarine;
+
+}
+.ine li{
+    
+    padding: 5px 10px;
+display: inline-block;
+
+}
+.ine li a{
+    background-color: black;
+    color: aquamarine;
+    text-decoration: none;
+
+}
+.in3 {
+    background-color: grey;
+   
+
+}
+.ine3 li{
+    
+   float: left;
+   list-style: none;
+}
+.ine3 a{
+ 
+background-color: blanchedalmond;
+color: brown;
+text-decoration: none;
+padding: 5px 10px;
+}
+.in5{
+    clear: both;
+}
